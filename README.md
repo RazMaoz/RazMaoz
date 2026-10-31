@@ -1,29 +1,32 @@
 # Hi, I'm Raz Maoz 👋
-### Data Scientist | Scientific Machine Learning (SciML) & Quantitative Analytics
+### Data Scientist | Data Systems Architect
 
-I specialize in bridging complex mathematical/physical modeling with modern machine learning and causal inference.  
-My background spans hydrodynamic-ecosystem modeling, deep learning for biomedical signal processing, and forensic commercial analytics.
+Data Scientist with 15+ years of R&D systems engineering experience (HP, Kornit Digital, IOLR).  
+I specialize in end-to-end data pipelines, closed-loop calibration architectures, predictive modeling (DoE), and surrogate machine learning for complex physical and industrial systems.
 
 ---
 
 ## 🔬 Featured Projects & Flagship Repositories
 
 ### 🌊 [Lake Kinneret Ecosystem & Limnology Simulation (SciML)](https://github.com/RazMaoz/kinneret-limnology-simulation-ml)
-- **Problem:** Coupling high-dimensional 3D/1D hydrodynamic models (MITgcm) with ecological biogeochemistry (Darwin model) across an 11-year empirical window (2010–2020) for Lake Kinneret.
-- **Tech & Methods:** Python, NetCDF4, xarray, Differential Equations, Spectral Aging Convergence, Spatial Autocorrelation, Surrogate Modeling.
-- **Key Impact:** Solved numerical cold-start divergence through empirical threshold-calibrated aging loops and designed a 16-run DoE matrix for millisecond-latency surrogate predictions.
+- **Role & Context:** Data Science Researcher at Israel Oceanographic and Limnological Research (IOLR).
+- **The Challenge:** Replacing computationally prohibitive 3D/1D hydrodynamic and biogeochemical simulations (MITgcm-Darwin) with millisecond-latency Machine Learning surrogate models.
+- **Key Engineering Milestones:**
+  - Stabilized physical simulation dynamics by resolving CFL numerical instabilities on a calibrated 9x15 3D bathymetry grid.
+  - Implemented empirical aging convergence algorithms calibrated against 10 years of ground-truth field observations.
+  - Engineered robust multiprocessing pipelines handling 11-year NetCDF simulation datasets with strict stoichiometric transformations.
 
-### 🩺 [ECG Multi-Label Diagnosis with Deep CNNs](https://github.com/RazMaoz/ecg-multi-label-cnn-diagnosis) *(Coming up next)*
-- **Problem:** Multi-label classification of cardiac pathologies and ischemic patterns from 500Hz raw ECG time-series signals.
-- **Tech & Methods:** PyTorch / TensorFlow, 1D-CNNs, Wavelet Transforms, Noise & Smoothing Invariance Testing.
+### 🩺 [ECG Multi-Label Diagnosis with Deep CNNs](https://github.com/RazMaoz/ecg-multi-label-cnn-diagnosis) *(NAYA College Flagship Project)*
+- **Problem:** Multi-label classification of cardiac pathologies and ischemic patterns from 500Hz raw biomedical ECG time-series signals.
+- **Tech & Methods:** Deep 1D-CNNs, Signal Processing (FFT / Filtering), Multi-Label Evaluation (Macro/Micro ROC-AUC), Noise and Smoothing Invariance Testing.
 
 ---
 
-## 🛠️ Technical Stack & Methodologies
+## 🛠️ Core Competencies & Technical Stack
 
-- **Languages & Frameworks:** Python (`numpy`, `pandas`, `scipy`, `scikit-learn`, `xarray`, `PyTorch`), SQL (Window Functions, CTEs).
-- **Specializations:** Scientific Machine Learning (SciML), Time-Series Modeling, Design of Experiments (DoE), Causal Inference & Shift-Share Decompositions.
-- **Engineering Hygiene:** Fully reproducible pipelines, automated test assertions, and strict quantitative forensic verification.
+- **Data Science & ML:** Python (`pandas`, `numpy`, `scipy`, `scikit-learn`, `xarray`), Predictive & Surrogate Modeling, CNNs, Time-Series Forecasting.
+- **Data Engineering & Architecture:** End-to-End Data Pipelines, ETL & Preprocessing, Concurrency & Multiprocessing, SQL.
+- **Systems & Quantitative Analytics:** Closed-Loop Calibration, Design of Experiments (DoE), Statistical Quality Control & RCA, Industrial Image & Signal Processing.
 
 ---
 
@@ -31,4 +34,4 @@ My background spans hydrodynamic-ecosystem modeling, deep learning for biomedica
 
 - **LinkedIn:** [linkedin.com/in/raz-maoz](https://www.linkedin.com/in/raz-maoz/)
 - **GitHub:** [@RazMaoz](https://github.com/RazMaoz)
-- **Email:** `137483984+RazMaoz@users.noreply.github.com`
+- **Email:** `raz.m.maoz@gmail.com`
