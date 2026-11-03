@@ -1,32 +1,31 @@
 # Hi, I'm Raz Maoz 👋
 ### Data Scientist | Data Systems Architect
 
-Data Scientist with 15+ years of R&D systems engineering experience (HP, Kornit Digital, IOLR).  
-I specialize in end-to-end data pipelines, closed-loop calibration architectures, predictive modeling (DoE), and surrogate machine learning for complex physical and industrial systems.
+Data Scientist with over 15 years of experience transforming complex physical, industrial, and biological systems into robust data pipelines, predictive models, and closed-loop calibration architectures.
 
 ---
 
 ## 🔬 Featured Projects & Flagship Repositories
 
-### 🌊 [Lake Kinneret Ecosystem & Limnology Simulation (SciML)](https://github.com/RazMaoz/kinneret-limnology-simulation-ml)
+### 🌊 [Lake Kinneret 3D Biogeochemical Model Adaptation & Surrogate-ML Dataset Generation](https://github.com/RazMaoz/kinneret-limnology-simulation-ml)
 - **Role & Context:** Data Science Researcher at Israel Oceanographic and Limnological Research (IOLR).
-- **The Challenge:** Replacing computationally prohibitive 3D/1D hydrodynamic and biogeochemical simulations (MITgcm-Darwin) with millisecond-latency Machine Learning surrogate models.
-- **Key Engineering Milestones:**
-  - Stabilized physical simulation dynamics by resolving CFL numerical instabilities on a calibrated 9x15 3D bathymetry grid.
-  - Implemented empirical aging convergence algorithms calibrated against 10 years of ground-truth field observations.
-  - Engineered robust multiprocessing pipelines handling 11-year NetCDF simulation datasets with strict stoichiometric transformations.
+- **Core Engineering Challenge:** Adapting the open-source **MITgcm-Darwin** biogeochemical model (originally engineered for global saline marine oceans) to Lake Kinneret (a dynamic freshwater lake) and stabilizing simulation physics to build training datasets for surrogate ML.
+- **Key Milestones:**
+  - Resolved velocity CFL numerical divergence on a calibrated 9x15 bathymetry grid with 19 active layers.
+  - Implemented empirical aging convergence algorithms calibrated against 10 years of ground-truth field observations ($1.82\text{ mmol C/m}^3$ threshold).
+  - Engineered robust multiprocessing pipelines producing 11 continuous years of validated simulation tensors (2010-2020).
 
-### 🩺 [ECG Multi-Label Diagnosis with Deep CNNs](https://github.com/RazMaoz/ecg-multi-label-cnn-diagnosis) *(NAYA College Flagship Project)*
-- **Problem:** Multi-label classification of cardiac pathologies and ischemic patterns from 500Hz raw biomedical ECG time-series signals.
-- **Tech & Methods:** Deep 1D-CNNs, Signal Processing (FFT / Filtering), Multi-Label Evaluation (Macro/Micro ROC-AUC), Noise and Smoothing Invariance Testing.
+### 🩺 [ECG Multi-Label Diagnosis with Deep 1D-CNNs](https://github.com/RazMaoz/ecg-multi-label-cnn-diagnosis)
+- **Problem:** Automated multi-label classification of co-occurring cardiac pathologies and ischemic patterns from 12-lead raw biomedical ECG signals (PTB-XL dataset).
+- **Tech & Methods:** Deep 1D-CNNs, signal preprocessing, patient-stratified leakage prevention, noise and moving-average smoothing invariance audits (achieving 0.91 Macro ROC-AUC at 500Hz).
 
 ---
 
 ## 🛠️ Core Competencies & Technical Stack
 
-- **Data Science & ML:** Python (`pandas`, `numpy`, `scipy`, `scikit-learn`, `xarray`), Predictive & Surrogate Modeling, CNNs, Time-Series Forecasting.
+- **Data Science & ML:** Python (`pandas`, `numpy`, `scipy`, `scikit-learn`, `xarray`, `TensorFlow`), Predictive & Surrogate Modeling, 1D-CNNs, Time-Series Forecasting.
 - **Data Engineering & Architecture:** End-to-End Data Pipelines, ETL & Preprocessing, Concurrency & Multiprocessing, SQL.
-- **Systems & Quantitative Analytics:** Closed-Loop Calibration, Design of Experiments (DoE), Statistical Quality Control & RCA, Industrial Image & Signal Processing.
+- **Systems & Quantitative Analytics:** Closed-Loop Calibration, Design of Experiments (DoE), Statistical Quality Control & RCA, Industrial Signal & Image Processing.
 
 ---
 
